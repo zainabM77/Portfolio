@@ -1,12 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta name="viewport" content = "with=device-width, initial-scale=1.0">
+        <meta charset = "UTF-8">
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0"/>
+
         <title> Zainab Mujadidi </title>
+
+        
+        <link rel="stylesheet" href="index.css" />
+
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">    
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Libre+Caslon+Text:ital,wght@0,700;1,400&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Oooh+Baby&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+
+
     </head>
     <body>
-        <header>        
-            <h1>Welcome</h1>
-        </header>
-    </body>
-</html>
+        <!--navigation bar section-->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="/" id="navbar__logo">Zainab Mujadidi</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class = "bar"></span>
+                    <span class = "bar"></span>
+                    <span class = "bar"></span>
+                </div>
+                <ul class= "navbar__menu">
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__links"> Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="projects.html" class="navbar__links"> Projects</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="education.html" class="navbar__links"> Education</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="contact.html" class="navbar__links"> Contact Me</a>
+                    </li>
+                   <!---- <li class="navbar__item"></li>
+                        <a href="contact.html" class="navbar__links"> Contact Me</a>
+                    </li> 
+                    <li class="navbar__btn">
+                        <a href="contact.html" class="button">Contact Me</a>
+                    </li>  --> 
+                </ul>
+
+            </div>
+        </nav>
+<!-- home section -->
+
+
+<div class="page-container">
+    <div class="homeleft">
+             <h1 class="fade-in-text welcome-text"> WELCOME</h1>
+             <p class="fade-in-text student-text"> I am a highly motivated third-year Computer Engineering student at Toronto Metropolitan University, with a strong foundation in both hardware and software development. I am eager to leverage my problem-solving skills, creativity, and technical expertise to contribute to meaningful technological advancements.</p>
+             <!-- <button class = "home__btn"><a href="/">Get started</a></button> --> 
+           
+    </div>
+    <div class="homeright">
+        <img src= "FYECpic.JPG" alt="pic" id="home__img" style="border: 5px solid #A2A2A1FF;"/>
+    </div>
+
+</div>
+
+<script>
+    // When the page loads, add the 'visible' class to fade in the text
+    window.onload = function() {
+        const fadeInElements = document.querySelectorAll('.fade-in-text');
+        fadeInElements.forEach(function(element) {
+            element.classList.add('visible');
+        });
+    }
+</script>
+
+
+       <!-- moreinfo -->
+      
+
+    <div class= "moreinfo__container">
+        <div class = "moreinfo-left">
+            <p class="fade-in-text header-text"> 
+                As a member of the Toronto Metropolitan University Women’s Rugby Team, I’ve developed strong teamwork, 
+                resilience, and leadership skills, which directly enhance my approach to engineering. Balancing athletics with my studies has 
+                honed my time management and discipline, while my competitive spirit drives me to excel in both sports and technology. 
+                </p>
+        </div> 
+
+     <div class="moreinfo-right">
+        <img src= "rugby2.JPG" alt="pic" id="rugby__img" style="border: 5px solid #A2A2A1FF;"/>
+    </div>
+
+    </div>
+    
+     <!-- footer -->
+
+     <div class=" footer__container">
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/zainabmujadidi" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i></a>
+
+                        <a href="https://github.com/zainabM77" target="_blank">
+                            <i class="fa-brands fa-github"></i></a>
+                    </div>
+            </div>
+        
+
+
+        <script src="script.js"></script>
+<body>
+    <html> 
+
+   
+
+ 
+        
+
